@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Utils" />
+				</Compiler>
+				<Linker>
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-audio-d.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-network-d.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-graphics-d.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-window-d.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-system-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Utils" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-audio.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-network.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-graphics.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-window.a" />
+					<Add library="D:\C++\Lib\SFML-TDM481x32\lib\libsfml-system.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DWINDOWS" />
+			<Add directory="D:/C++/Lib/SFML-TDM481x32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lzdll" />
+			<Add directory="D:/C++/Lib/SFML-TDM481x32/lib" />
+		</Linker>
+		<Unit filename="Application/Application.cpp" />
+		<Unit filename="Application/Application.hpp" />
+		<Unit filename="Application/AudioManager.cpp" />
+		<Unit filename="Application/AudioManager.hpp" />
+		<Unit filename="Application/LangManager.cpp" />
+		<Unit filename="Application/LangManager.hpp" />
+		<Unit filename="Application/ResourceManager.cpp" />
+		<Unit filename="Application/ResourceManager.hpp" />
+		<Unit filename="Application/State.cpp" />
+		<Unit filename="Application/State.hpp" />
+		<Unit filename="Application/StateManager.cpp" />
+		<Unit filename="Application/StateManager.hpp" />
+		<Unit filename="Application/Window.cpp" />
+		<Unit filename="Application/Window.hpp" />
+		<Unit filename="Core/Action.cpp" />
+		<Unit filename="Core/Action.hpp" />
+		<Unit filename="Core/ActionMap.cpp" />
+		<Unit filename="Core/ActionMap.hpp" />
+		<Unit filename="Core/ActionTarget.cpp" />
+		<Unit filename="Core/ActionTarget.hpp" />
+		<Unit filename="Core/Actor.cpp" />
+		<Unit filename="Core/Actor.hpp" />
+		<Unit filename="Core/CameraComponent.cpp" />
+		<Unit filename="Core/CameraComponent.hpp" />
+		<Unit filename="Core/CameraManager.cpp" />
+		<Unit filename="Core/CameraManager.hpp" />
+		<Unit filename="Core/Component.cpp" />
+		<Unit filename="Core/Component.hpp" />
+		<Unit filename="Core/InputComponent.cpp" />
+		<Unit filename="Core/InputComponent.hpp" />
+		<Unit filename="Core/PointComponent.cpp" />
+		<Unit filename="Core/PointComponent.hpp" />
+		<Unit filename="Core/RootComponent.cpp" />
+		<Unit filename="Core/RootComponent.hpp" />
+		<Unit filename="Core/SceneComponent.cpp" />
+		<Unit filename="Core/SceneComponent.hpp" />
+		<Unit filename="Core/SpriteComponent.cpp" />
+		<Unit filename="Core/SpriteComponent.hpp" />
+		<Unit filename="Core/Tickable.cpp" />
+		<Unit filename="Core/Tickable.hpp" />
+		<Unit filename="Core/Transformable.cpp" />
+		<Unit filename="Core/Transformable.hpp" />
+		<Unit filename="Core/World.cpp" />
+		<Unit filename="Core/World.hpp" />
+		<Unit filename="Isometric.cpp" />
+		<Unit filename="Isometric.hpp" />
+		<Unit filename="LayerComponent.cpp" />
+		<Unit filename="LayerComponent.hpp" />
+		<Unit filename="SimpleGui/Button.cpp" />
+		<Unit filename="SimpleGui/Button.hpp" />
+		<Unit filename="SimpleGui/Callback.cpp" />
+		<Unit filename="SimpleGui/Callback.hpp" />
+		<Unit filename="SimpleGui/CheckBox.cpp" />
+		<Unit filename="SimpleGui/CheckBox.hpp" />
+		<Unit filename="SimpleGui/Container.cpp" />
+		<Unit filename="SimpleGui/Container.hpp" />
+		<Unit filename="SimpleGui/Joystick.cpp" />
+		<Unit filename="SimpleGui/Joystick.hpp" />
+		<Unit filename="SimpleGui/LineEdit.cpp" />
+		<Unit filename="SimpleGui/LineEdit.hpp" />
+		<Unit filename="SimpleGui/SimpleGui.hpp" />
+		<Unit filename="SimpleGui/Slider.cpp" />
+		<Unit filename="SimpleGui/Slider.hpp" />
+		<Unit filename="SimpleGui/Sprite.cpp" />
+		<Unit filename="SimpleGui/Sprite.hpp" />
+		<Unit filename="SimpleGui/Widget.cpp" />
+		<Unit filename="SimpleGui/Widget.hpp" />
+		<Unit filename="Utils/Array.hpp" />
+		<Unit filename="Utils/Assume.hpp" />
+		<Unit filename="Utils/AtLog.cpp" />
+		<Unit filename="Utils/AtLog.hpp" />
+		<Unit filename="Utils/Cocoa.hpp" />
+		<Unit filename="Utils/Compression.cpp" />
+		<Unit filename="Utils/Compression.hpp" />
+		<Unit filename="Utils/Gzstream.cpp" />
+		<Unit filename="Utils/Gzstream.hpp" />
+		<Unit filename="Utils/Json.hpp" />
+		<Unit filename="Utils/Log.cpp" />
+		<Unit filename="Utils/Log.hpp" />
+		<Unit filename="Utils/Map.hpp" />
+		<Unit filename="Utils/Math.cpp" />
+		<Unit filename="Utils/Math.hpp" />
+		<Unit filename="Utils/Packet.cpp" />
+		<Unit filename="Utils/Packet.hpp" />
+		<Unit filename="Utils/ParallelTask.cpp" />
+		<Unit filename="Utils/ParallelTask.hpp" />
+		<Unit filename="Utils/PhysicConverter.cpp" />
+		<Unit filename="Utils/PhysicConverter.hpp" />
+		<Unit filename="Utils/Pugixml.cpp" />
+		<Unit filename="Utils/Pugixml.hpp" />
+		<Unit filename="Utils/String.cpp" />
+		<Unit filename="Utils/String.hpp" />
+		<Unit filename="Utils/Time.cpp" />
+		<Unit filename="Utils/Time.hpp" />
+		<Unit filename="Utils/Timer.cpp" />
+		<Unit filename="Utils/Timer.hpp" />
+		<Unit filename="Utils/Vector.cpp" />
+		<Unit filename="Utils/Vector.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

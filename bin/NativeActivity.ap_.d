@@ -1,0 +1,20 @@
+D:\Android\Projects\TestAharos\bin\NativeActivity.ap_ \
+ : D:\Android\Projects\TestAharos\res\drawable-hdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\res\drawable-ldpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\res\drawable-mdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\res\drawable-xhdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\res\drawable-xxhdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\res\values\strings.xml \
+D:\Android\Projects\TestAharos\bin\res\drawable-hdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\bin\res\drawable-ldpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\bin\res\drawable-mdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\bin\res\drawable-xhdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\bin\res\drawable-xxhdpi\sfml_logo.png \
+D:\Android\Projects\TestAharos\assets\icon.png \
+D:\Android\Projects\TestAharos\assets\image.png \
+D:\Android\Projects\TestAharos\assets\iso-tileset.png \
+D:\Android\Projects\TestAharos\assets\joyBackground.png \
+D:\Android\Projects\TestAharos\assets\joyButton.png \
+D:\Android\Projects\TestAharos\assets\sansation.ttf \
+D:\Android\Projects\TestAharos\assets\tileset.png \
+D:\Android\Projects\TestAharos\bin\AndroidManifest.xml \
