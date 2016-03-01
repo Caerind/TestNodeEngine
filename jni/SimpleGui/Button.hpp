@@ -23,9 +23,13 @@ class Button : public Widget, public Sprite, public Callback
 		sf::FloatRect getBounds() const;
 		bool contains(sf::Vector2f const& pos) const;
 
-        virtual void handleEvent(sf::Event const& event, ah::Window& window);
+        virtual void handleEvent(sf::Event const& event);
         virtual void update(sf::Time dt);
         virtual void render(sf::RenderTarget& target, sf::RenderStates states);
+
+        sf::Vector2f getSize() const;
+        void setSize(sf::Vector2f newSize);
+        void setSize(float x, float y);
 
 	private:
 		bool mPressed;

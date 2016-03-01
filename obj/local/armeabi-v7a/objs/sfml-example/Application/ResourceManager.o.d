@@ -106,18 +106,12 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/ResourceManager.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/AlResource.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Time.hpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/set \
- jni/Application/../Utils/Assume.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
- jni/Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
- jni/Application/../Utils/Time.hpp jni/Application/../Utils/Map.hpp
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h
 
 jni/Application/ResourceManager.hpp:
 
@@ -333,28 +327,14 @@ D:/Android/NDK/sources/sfml/include/SFML/System/Time.hpp:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/set:
 
-jni/Application/../Utils/Assume.hpp:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
 
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset:
 
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
 
-jni/Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
-
-jni/Application/../Utils/Time.hpp:
-
-jni/Application/../Utils/Map.hpp:
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:

@@ -61,7 +61,7 @@ void Widget::setSize(float x, float y)
 }
 
 ////////////////////////////////////////////////////////////
-void Widget::handleEvent(sf::Event const& event, ah::Window& window)
+void Widget::handleEvent(sf::Event const& event)
 {
 }
 

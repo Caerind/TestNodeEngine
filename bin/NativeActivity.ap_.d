@@ -10,6 +10,7 @@ D:\GitHub\TestNodeEngine\bin\res\drawable-ldpi\sfml_logo.png \
 D:\GitHub\TestNodeEngine\bin\res\drawable-mdpi\sfml_logo.png \
 D:\GitHub\TestNodeEngine\bin\res\drawable-xhdpi\sfml_logo.png \
 D:\GitHub\TestNodeEngine\bin\res\drawable-xxhdpi\sfml_logo.png \
+D:\GitHub\TestNodeEngine\assets\hex-tileset.png \
 D:\GitHub\TestNodeEngine\assets\icon.png \
 D:\GitHub\TestNodeEngine\assets\image.png \
 D:\GitHub\TestNodeEngine\assets\iso-tileset.png \

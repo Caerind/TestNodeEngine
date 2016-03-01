@@ -1,5 +1,11 @@
 obj/local/armeabi-v7a/objs/sfml-example/SimpleGui/Joystick.o: \
  jni/SimpleGui/Joystick.cpp jni/SimpleGui/Joystick.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__config \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/type_traits \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstddef \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Sprite.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Config.hpp \
@@ -11,10 +17,7 @@ obj/local/armeabi-v7a/objs/sfml-example/SimpleGui/Joystick.o: \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.inl \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/algorithm \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__config \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/initializer_list \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstddef \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/type_traits \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstring \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/string.h \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/string.h \
@@ -110,55 +113,13 @@ obj/local/armeabi-v7a/objs/sfml-example/SimpleGui/Joystick.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/PrimitiveType.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/NonCopyable.hpp \
- jni/SimpleGui/../Application/Application.hpp \
- jni/SimpleGui/../Application/StateManager.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/map \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer \
- jni/SimpleGui/../Application/../Utils/String.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
+ jni/SimpleGui/Widget.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Window.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System/Clock.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System/Err.hpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset \
- jni/SimpleGui/../Application/../Utils/Vector.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
- jni/SimpleGui/../Application/../Utils/Assume.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
- jni/SimpleGui/../Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- jni/SimpleGui/../Application/../Utils/Time.hpp \
- jni/SimpleGui/../Application/State.hpp \
- jni/SimpleGui/../Application/Window.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderWindow.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Image.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/Window.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/ContextSettings.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/VideoMode.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/WindowHandle.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/WindowStyle.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/GlResource.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/System/Clock.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Texture.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window/Touch.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Font.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Glyph.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Text.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/VertexArray.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/RectangleShape.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Shape.hpp \
- jni/SimpleGui/../Application/../Utils/Pugixml.hpp \
- jni/SimpleGui/../Application/../Utils/Time.hpp \
- jni/SimpleGui/../Application/AudioManager.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/System.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/System/Err.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/FileInputStream.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/InputStream.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Lock.hpp \
@@ -170,33 +131,37 @@ obj/local/armeabi-v7a/objs/sfml-example/SimpleGui/Joystick.o: \
  D:/Android/NDK/sources/sfml/include/SFML/System/ThreadLocal.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/ThreadLocalPtr.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/ThreadLocalPtr.inl \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/InputSoundFile.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/Export.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/Listener.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/Music.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundStream.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundSource.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/AlResource.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/OutputSoundFile.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/Sound.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundBuffer.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/set \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundBufferRecorder.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundRecorder.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileFactory.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileFactory.inl \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileReader.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp \
- jni/SimpleGui/../Application/ResourceManager.hpp \
- jni/SimpleGui/../Application/../Utils/Map.hpp \
- jni/SimpleGui/../Application/LangManager.hpp \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h \
- jni/SimpleGui/../Application/../Utils/Log.hpp jni/SimpleGui/Widget.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Window.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Context.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/array
+ D:/Android/NDK/sources/sfml/include/SFML/Window/GlResource.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Window/ContextSettings.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Window/Touch.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Window/VideoMode.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer \
+ D:/Android/NDK/sources/sfml/include/SFML/Window/Window.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Window/WindowHandle.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Window/WindowStyle.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/array \
+ jni/SimpleGui/../Utils/Log.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
+ jni/SimpleGui/../Utils/Time.hpp
 
 jni/SimpleGui/Joystick.hpp:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__config:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
+
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/type_traits:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstddef:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/Sprite.hpp:
 
@@ -220,13 +185,7 @@ D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.inl:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/algorithm:
 
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__config:
-
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/initializer_list:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstddef:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/type_traits:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstring:
 
@@ -418,103 +377,19 @@ D:/Android/NDK/sources/sfml/include/SFML/Graphics/PrimitiveType.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/System/NonCopyable.hpp:
 
-jni/SimpleGui/../Application/Application.hpp:
+jni/SimpleGui/Widget.hpp:
 
-jni/SimpleGui/../Application/StateManager.hpp:
+D:/Android/NDK/sources/sfml/include/SFML/Window.hpp:
 
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/map:
+D:/Android/NDK/sources/sfml/include/SFML/System.hpp:
 
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree:
+D:/Android/NDK/sources/sfml/include/SFML/System/Clock.hpp:
 
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer:
-
-jni/SimpleGui/../Application/../Utils/String.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
+D:/Android/NDK/sources/sfml/include/SFML/System/Err.hpp:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset:
-
-jni/SimpleGui/../Application/../Utils/Vector.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
-
-jni/SimpleGui/../Application/../Utils/Assume.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
-
-jni/SimpleGui/../Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-jni/SimpleGui/../Application/../Utils/Time.hpp:
-
-jni/SimpleGui/../Application/State.hpp:
-
-jni/SimpleGui/../Application/Window.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderWindow.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Image.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/Window.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/ContextSettings.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/VideoMode.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/WindowHandle.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/WindowStyle.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/GlResource.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/System/Clock.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Texture.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window/Touch.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Font.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Glyph.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Text.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/VertexArray.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/RectangleShape.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Shape.hpp:
-
-jni/SimpleGui/../Application/../Utils/Pugixml.hpp:
-
-jni/SimpleGui/../Application/../Utils/Time.hpp:
-
-jni/SimpleGui/../Application/AudioManager.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/System.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/System/Err.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/System/FileInputStream.hpp:
 
@@ -538,54 +413,36 @@ D:/Android/NDK/sources/sfml/include/SFML/System/ThreadLocalPtr.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/System/ThreadLocalPtr.inl:
 
-D:/Android/NDK/sources/sfml/include/SFML/Audio/InputSoundFile.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/Export.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/Listener.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/Music.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundStream.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundSource.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/AlResource.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/OutputSoundFile.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/Sound.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundBuffer.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/set:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundBufferRecorder.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundRecorder.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileFactory.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileFactory.inl:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileReader.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp:
-
-jni/SimpleGui/../Application/ResourceManager.hpp:
-
-jni/SimpleGui/../Application/../Utils/Map.hpp:
-
-jni/SimpleGui/../Application/LangManager.hpp:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
-
-jni/SimpleGui/../Application/../Utils/Log.hpp:
-
-jni/SimpleGui/Widget.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Window.hpp:
-
 D:/Android/NDK/sources/sfml/include/SFML/Window/Context.hpp:
 
+D:/Android/NDK/sources/sfml/include/SFML/Window/GlResource.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Window/ContextSettings.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Window/Touch.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Window/VideoMode.hpp:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer:
+
+D:/Android/NDK/sources/sfml/include/SFML/Window/Window.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Window/WindowHandle.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Window/WindowStyle.hpp:
+
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/array:
+
+jni/SimpleGui/../Utils/Log.hpp:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
+
+jni/SimpleGui/../Utils/Time.hpp:

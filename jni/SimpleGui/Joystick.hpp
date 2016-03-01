@@ -1,12 +1,11 @@
 #ifndef SGUI_JOYSTICK_HPP
 #define SGUI_JOYSTICK_HPP
 
+#include <cmath>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Window/Event.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
 #include <SFML/Graphics/RenderStates.hpp>
-
-#include "../Application/Application.hpp"
 
 #include "Widget.hpp"
 
@@ -18,10 +17,10 @@ class Joystick : public Widget
     public:
         Joystick();
 
-        void setButtonTexture(std::string const& id);
+        void setButtonTexture(sf::Texture& texture);
         void setButtonRect(sf::IntRect const& rect);
 
-        void setBackgroundTexture(std::string const& id);
+        void setBackgroundTexture(sf::Texture& texture);
         void setBackgroundRect(sf::IntRect const& rect);
 
         sf::Vector2f getDelta() const;
@@ -32,7 +31,7 @@ class Joystick : public Widget
         sf::FloatRect getBounds() const;
         bool contains(sf::Vector2f const& pos) const;
 
-        virtual void handleEvent(sf::Event const& event, ah::Window& window);
+        virtual void handleEvent(sf::Event const& event);
         virtual void update(sf::Time dt);
         virtual void render(sf::RenderTarget& target, sf::RenderStates states);
 

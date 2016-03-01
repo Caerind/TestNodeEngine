@@ -2,11 +2,10 @@
 #define SGUI_SPRITE_H
 
 #include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
 #include <SFML/Graphics/RenderStates.hpp>
 #include <map>
-
-#include "../Application/Application.hpp"
 
 namespace SGUI
 {
@@ -17,7 +16,6 @@ class Sprite
         Sprite();
 
         void setTexture(sf::Texture& texture);
-        void setTexture(std::string const& texture);
 
         void setTextureRect(int type, sf::IntRect textureRect);
         void useTextureRect(int type);

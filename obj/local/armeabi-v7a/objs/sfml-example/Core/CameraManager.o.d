@@ -132,15 +132,8 @@ obj/local/armeabi-v7a/objs/sfml-example/Core/CameraManager.o: \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree \
  jni/Core/../Utils/Timer.hpp jni/Core/../Application/Application.hpp \
  jni/Core/../Application/StateManager.hpp \
- jni/Core/../Application/../Utils/String.hpp \
- jni/Core/../Application/../Utils/Assume.hpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
- jni/Core/../Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- jni/Core/../Application/../Utils/Time.hpp \
  jni/Core/../Application/State.hpp jni/Core/../Application/Window.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderWindow.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Image.hpp \
@@ -196,10 +189,9 @@ obj/local/armeabi-v7a/objs/sfml-example/Core/CameraManager.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileReader.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp \
  jni/Core/../Application/ResourceManager.hpp \
- jni/Core/../Application/../Utils/Map.hpp \
  jni/Core/../Application/LangManager.hpp \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h \
- jni/Core/../Application/../Utils/Log.hpp
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h
 
 jni/Core/CameraManager.hpp:
 
@@ -481,23 +473,9 @@ jni/Core/../Application/Application.hpp:
 
 jni/Core/../Application/StateManager.hpp:
 
-jni/Core/../Application/../Utils/String.hpp:
-
-jni/Core/../Application/../Utils/Assume.hpp:
-
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
 
 D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
-
-jni/Core/../Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-jni/Core/../Application/../Utils/Time.hpp:
 
 jni/Core/../Application/State.hpp:
 
@@ -611,10 +589,8 @@ D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp:
 
 jni/Core/../Application/ResourceManager.hpp:
 
-jni/Core/../Application/../Utils/Map.hpp:
-
 jni/Core/../Application/LangManager.hpp:
 
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
 
-jni/Core/../Application/../Utils/Log.hpp:
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:

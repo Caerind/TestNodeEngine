@@ -82,6 +82,10 @@
 		<Unit filename="Core/Component.hpp" />
 		<Unit filename="Core/InputComponent.cpp" />
 		<Unit filename="Core/InputComponent.hpp" />
+		<Unit filename="Core/LayerComponent.cpp" />
+		<Unit filename="Core/LayerComponent.hpp" />
+		<Unit filename="Core/MapUtility.cpp" />
+		<Unit filename="Core/MapUtility.hpp" />
 		<Unit filename="Core/PointComponent.cpp" />
 		<Unit filename="Core/PointComponent.hpp" />
 		<Unit filename="Core/RootComponent.cpp" />
@@ -96,10 +100,6 @@
 		<Unit filename="Core/Transformable.hpp" />
 		<Unit filename="Core/World.cpp" />
 		<Unit filename="Core/World.hpp" />
-		<Unit filename="Isometric.cpp" />
-		<Unit filename="Isometric.hpp" />
-		<Unit filename="LayerComponent.cpp" />
-		<Unit filename="LayerComponent.hpp" />
 		<Unit filename="SimpleGui/Button.cpp" />
 		<Unit filename="SimpleGui/Button.hpp" />
 		<Unit filename="SimpleGui/Callback.cpp" />

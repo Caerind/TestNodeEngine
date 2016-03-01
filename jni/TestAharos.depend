@@ -1234,29 +1234,28 @@
 	<zlib.h>
 	"Pugixml.hpp"
 
-1456792262 source:d:\github\testnodeengine\jni\simplegui\button.cpp
+1456875270 source:d:\github\testnodeengine\jni\simplegui\button.cpp
 	"Button.hpp"
 
-1456792210 d:\github\testnodeengine\jni\simplegui\button.hpp
+1456875037 d:\github\testnodeengine\jni\simplegui\button.hpp
 	"Widget.hpp"
 	"Sprite.hpp"
 	"Callback.hpp"
 
-1456787169 d:\github\testnodeengine\jni\simplegui\widget.hpp
+1456875028 d:\github\testnodeengine\jni\simplegui\widget.hpp
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Graphics/Transformable.hpp>
 	<SFML/System/Time.hpp>
 	<SFML/Window.hpp>
 	<memory>
 	<array>
-	"../Application/Application.hpp"
 
-1456790448 d:\github\testnodeengine\jni\simplegui\sprite.hpp
+1456875555 d:\github\testnodeengine\jni\simplegui\sprite.hpp
 	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
 	<SFML/Graphics/RenderTarget.hpp>
 	<SFML/Graphics/RenderStates.hpp>
 	<map>
-	"../Application/Application.hpp"
 
 1456787396 d:\github\testnodeengine\jni\simplegui\callback.hpp
 	<functional>
@@ -1265,30 +1264,30 @@
 1456787388 source:d:\github\testnodeengine\jni\simplegui\callback.cpp
 	"Callback.hpp"
 
-1456791313 source:d:\github\testnodeengine\jni\simplegui\checkbox.cpp
+1456875447 source:d:\github\testnodeengine\jni\simplegui\checkbox.cpp
 	"CheckBox.hpp"
 
-1456791213 d:\github\testnodeengine\jni\simplegui\checkbox.hpp
+1456875054 d:\github\testnodeengine\jni\simplegui\checkbox.hpp
 	"Widget.hpp"
 	"Sprite.hpp"
 	"Callback.hpp"
 
-1456790891 source:d:\github\testnodeengine\jni\simplegui\container.cpp
+1456875158 source:d:\github\testnodeengine\jni\simplegui\container.cpp
 	"Container.hpp"
 
-1456790891 d:\github\testnodeengine\jni\simplegui\container.hpp
+1456875068 d:\github\testnodeengine\jni\simplegui\container.hpp
 	<vector>
 	"Widget.hpp"
 
-1456791483 source:d:\github\testnodeengine\jni\simplegui\joystick.cpp
+1456875924 source:d:\github\testnodeengine\jni\simplegui\joystick.cpp
 	"Joystick.hpp"
 
-1456791353 d:\github\testnodeengine\jni\simplegui\joystick.hpp
+1456876687 d:\github\testnodeengine\jni\simplegui\joystick.hpp
+	<cmath>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Window/Event.hpp>
 	<SFML/Graphics/RenderTarget.hpp>
 	<SFML/Graphics/RenderStates.hpp>
-	"../Application/Application.hpp"
 	"Widget.hpp"
 
 1456789554 source:d:\github\testnodeengine\jni\simplegui\lineedit.cpp
@@ -1301,10 +1300,10 @@
 
 1456790905 d:\github\testnodeengine\jni\simplegui\slider.hpp
 
-1456790935 source:d:\github\testnodeengine\jni\simplegui\sprite.cpp
+1456875553 source:d:\github\testnodeengine\jni\simplegui\sprite.cpp
 	"Sprite.hpp"
 
-1456787204 source:d:\github\testnodeengine\jni\simplegui\widget.cpp
+1456875149 source:d:\github\testnodeengine\jni\simplegui\widget.cpp
 	"Widget.hpp"
 
 1456698607 source:d:\github\testnodeengine\jni\utils\atlog.cpp
@@ -1445,7 +1444,7 @@
 1456870846 source:d:\github\testnodeengine\jni\application\window.cpp
 	"Window.hpp"
 
-1456874477 source:d:\github\testnodeengine\jni\main.cpp
+1456875650 source:d:\github\testnodeengine\jni\main.cpp
 	<iostream>
 	"Application/Application.hpp"
 	"Core/World.hpp"
@@ -1466,7 +1465,7 @@
 	<SFML/System/Vector2.hpp>
 	"../Utils/Vector.hpp"
 
-1456874386 source:d:\github\testnodeengine\jni\core\layercomponent.cpp
+1456874697 source:d:\github\testnodeengine\jni\core\layercomponent.cpp
 	"LayerComponent.hpp"
 	"World.hpp"
 	"../Utils/Math.hpp"

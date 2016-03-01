@@ -77,14 +77,14 @@ class EState : public ah::State
     public:
         EState(ah::StateManager& manager) : ah::State(manager)
         {
-            mRight.setTexture("icon");
+            mRight.setTexture(NWorld::getResources().getTexture("icon"));
             mRight.setPosition(NWorld::getWindow().getSize().x-128,0);
             mRight.setCallback(SGUI::Button::Pressed,[&]()
             {
                 ah::Application::close();
             });
 
-            mLeft.setTexture("icon");
+            mLeft.setTexture(NWorld::getResources().getTexture("icon"));;
             mLeft.setPosition(0,NWorld::getWindow().getSize().y-128);
             mLeft.setCallback(SGUI::Button::Pressed,[&]()
             {
@@ -98,8 +98,8 @@ class EState : public ah::State
                 NWorld::setTimer(sf::seconds(2.f),[id](){NWorld::removeActor(id);});
             });
 
-            mJoystick.setButtonTexture("joyButton");
-            mJoystick.setBackgroundTexture("joyBackground");
+            mJoystick.setButtonTexture(NWorld::getResources().getTexture("joyButton"));
+            mJoystick.setBackgroundTexture(NWorld::getResources().getTexture("joyBackground"));
             mJoystick.setPosition(sf::Vector2f(NWorld::getWindow().getSize().x - 150, NWorld::getWindow().getSize().y - 150));
             mJoystick.setDeltaMax(50);
 
@@ -118,9 +118,9 @@ class EState : public ah::State
         bool handleEvent(sf::Event const& event)
         {
             NWorld::addEvent(event);
-            mLeft.handleEvent(event,NWorld::getWindow());
-            mRight.handleEvent(event,NWorld::getWindow());
-            mJoystick.handleEvent(event,NWorld::getWindow());
+            mLeft.handleEvent(event);
+            mRight.handleEvent(event);
+            mJoystick.handleEvent(event);
             return true;
         }
 

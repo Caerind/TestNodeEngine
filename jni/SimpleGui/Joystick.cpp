@@ -8,9 +8,9 @@ Joystick::Joystick() : Widget()
     mHeld = false;
 }
 
-void Joystick::setButtonTexture(std::string const& id)
+void Joystick::setButtonTexture(sf::Texture& texture)
 {
-    mButton.setTexture(ah::Application::getResources().getTexture(id));
+    mButton.setTexture(texture);
     mButton.setOrigin(mButton.getGlobalBounds().width /2, mButton.getGlobalBounds().height /2);
 }
 
@@ -20,9 +20,9 @@ void Joystick::setButtonRect(sf::IntRect const& rect)
     mButton.setOrigin(mButton.getGlobalBounds().width /2, mButton.getGlobalBounds().height /2);
 }
 
-void Joystick::setBackgroundTexture(std::string const& id)
+void Joystick::setBackgroundTexture(sf::Texture& texture)
 {
-    mBackground.setTexture(ah::Application::getResources().getTexture(id));
+    mBackground.setTexture(texture);
     mBackground.setOrigin(mBackground.getGlobalBounds().width /2, mBackground.getGlobalBounds().height /2);
 }
 
@@ -68,9 +68,24 @@ bool Joystick::contains(sf::Vector2f const& pos) const
 
 void Joystick::update(sf::Time dt)
 {
-    if (mHeld)
+}
+
+void Joystick::handleEvent(sf::Event const& event)
+{
+    #ifdef WINDOWS
+    if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left && Joystick::contains(sf::Vector2f(event.mouseButton.x,event.mouseButton.y)))
     {
-        sf::Vector2f p = ah::Application::getWindow().getPointerPosition(mFingerId) - getPosition();
+        mHeld = true;
+        mButton.setPosition(0,0);
+    }
+    if (event.type == sf::Event::MouseButtonReleased)
+    {
+        mHeld = false;
+        mButton.setPosition(0,0);
+    }
+    if (event.type == sf::Event::MouseMoved && mHeld)
+    {
+        sf::Vector2f p = sf::Vector2f(event.mouseMove.x,event.mouseMove.y) - getPosition();
         float r = std::sqrt(p.x*p.x + p.y*p.y);
         if (r >= mDeltaMax)
         {
@@ -81,30 +96,30 @@ void Joystick::update(sf::Time dt)
             mButton.setPosition(p);
         }
     }
-}
-
-void Joystick::handleEvent(sf::Event const& event, ah::Window& window)
-{
-    #ifdef WINDOWS
-    if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left && Joystick::contains(window.getPointerPosition()))
-    {
-        mHeld = true;
-    }
-    if (event.type == sf::Event::MouseButtonReleased)
-    {
-        mHeld = false;
-        mButton.setPosition(0,0);
-    }
     #else
-    if (event.type == sf::Event::TouchBegan && Joystick::contains(window.getPointerPosition(event.touch.finger)))
+    if (event.type == sf::Event::TouchBegan && Joystick::contains(sf::Vector2f(event.touch.x,event.touch.y)))
     {
         mHeld = true;
         mFingerId = event.touch.finger;
+        mButton.setPosition(0,0);
     }
     if (event.type == sf::Event::TouchEnded && event.touch.finger == mFingerId)
     {
         mHeld = false;
         mButton.setPosition(0,0);
+    }
+    if (event.type == sf::Event::TouchMoved && event.touch.finger == mFingerId && mHeld)
+    {
+        sf::Vector2f p = sf::Vector2f(event.touch.x,event.touch.y) - getPosition();
+        float r = std::sqrt(p.x*p.x + p.y*p.y);
+        if (r >= mDeltaMax)
+        {
+            mButton.setPosition(mDeltaMax * sf::Vector2f(p.x/r,p.y/r));
+        }
+        else
+        {
+            mButton.setPosition(p);
+        }
     }
     #endif
 }

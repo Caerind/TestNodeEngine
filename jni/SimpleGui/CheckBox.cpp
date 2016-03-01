@@ -37,14 +37,14 @@ bool CheckBox::contains(sf::Vector2f const& pos) const
 }
 
 ////////////////////////////////////////////////////////////
-void CheckBox::handleEvent(sf::Event const& event, ah::Window& window)
+void CheckBox::handleEvent(sf::Event const& event)
 {
     if (isEnabled() && isVisible())
     {
 		#ifdef WINDOWS
-		if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left && CheckBox::contains(window.getPointerPosition()))
+		if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left && CheckBox::contains(sf::Vector2f(event.mouseButton.x,event.mouseButton.y)))
 		#else
-		if (event.type == sf::Event::TouchEnded && CheckBox::contains(window.getPointerPosition(event.touch.finger)))
+		if (event.type == sf::Event::TouchEnded && CheckBox::contains(sf::Vector2f(event.touch.x,event.touch.y)))
 		#endif
 		{
 			mChecked = !mChecked;

@@ -36,10 +36,6 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/Application.o: \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/climits \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer \
- jni/Application/../Utils/String.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ios \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__locale \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/string \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstdio \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cwchar \
@@ -47,6 +43,11 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/Application.o: \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cctype \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/ctype.h \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/ctype.h \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ios \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__locale \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/mutex \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__mutex_base \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/chrono \
@@ -89,28 +90,15 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/Application.o: \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/memory.h \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/nl_types.h \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset \
+ jni/Application/State.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Config.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.inl \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Config.hpp \
- jni/Application/../Utils/Vector.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
- D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl \
- jni/Application/../Utils/Assume.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
- jni/Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- jni/Application/../Utils/Time.hpp jni/Application/State.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Transform.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/BlendMode.hpp \
@@ -131,6 +119,8 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/Application.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Keyboard.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Mouse.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Sensor.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl \
  jni/Application/Window.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderWindow.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Image.hpp \
@@ -184,10 +174,9 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/Application.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileFactory.inl \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileReader.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp \
- jni/Application/ResourceManager.hpp jni/Application/../Utils/Map.hpp \
- jni/Application/LangManager.hpp \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h \
- jni/Application/../Utils/Log.hpp
+ jni/Application/ResourceManager.hpp jni/Application/LangManager.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h
 
 jni/Application/Application.hpp:
 
@@ -263,14 +252,6 @@ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/climits:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer:
 
-jni/Application/../Utils/String.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ios:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__locale:
-
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/string:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cstdio:
@@ -284,6 +265,16 @@ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cctype:
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/ctype.h:
 
 D:/Android/NDK/platforms/android-9/arch-arm/usr/include/ctype.h:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
+
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ios:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__locale:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/mutex:
 
@@ -369,6 +360,16 @@ D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/nl_type
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset:
 
+jni/Application/State.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Config.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp:
+
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.hpp:
@@ -376,44 +377,6 @@ D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.hpp:
 D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.inl:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Config.hpp:
-
-jni/Application/../Utils/Vector.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
-
-D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl:
-
-jni/Application/../Utils/Assume.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
-
-jni/Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-jni/Application/../Utils/Time.hpp:
-
-jni/Application/State.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp:
 
@@ -454,6 +417,10 @@ D:/Android/NDK/sources/sfml/include/SFML/Window/Keyboard.hpp:
 D:/Android/NDK/sources/sfml/include/SFML/Window/Mouse.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Window/Sensor.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl:
 
 jni/Application/Window.hpp:
 
@@ -565,10 +532,8 @@ D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp:
 
 jni/Application/ResourceManager.hpp:
 
-jni/Application/../Utils/Map.hpp:
-
 jni/Application/LangManager.hpp:
 
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
 
-jni/Application/../Utils/Log.hpp:
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:

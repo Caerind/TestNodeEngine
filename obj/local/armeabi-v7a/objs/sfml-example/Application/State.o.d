@@ -108,28 +108,18 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/State.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Sensor.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl \
- jni/Application/../Utils/String.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer \
- jni/Application/../Utils/Vector.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
  jni/Application/StateManager.hpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/map \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree \
- jni/Application/../Utils/Assume.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
- jni/Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- jni/Application/../Utils/Time.hpp
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset
 
 jni/Application/State.hpp:
 
@@ -349,7 +339,21 @@ D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl:
 
-jni/Application/../Utils/String.hpp:
+jni/Application/StateManager.hpp:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/map:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
+
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
 
@@ -358,37 +362,3 @@ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/ostream:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/bitset:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer:
-
-jni/Application/../Utils/Vector.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
-
-jni/Application/StateManager.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/map:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree:
-
-jni/Application/../Utils/Assume.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
-
-jni/Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-jni/Application/../Utils/Time.hpp:

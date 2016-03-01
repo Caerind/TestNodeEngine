@@ -15,12 +15,6 @@ void Sprite::setTexture(sf::Texture& texture)
 }
 
 ////////////////////////////////////////////////////////////
-void Sprite::setTexture(std::string const& texture)
-{
-    mSprite.setTexture(ah::Application::getResources().getTexture(texture));
-}
-
-////////////////////////////////////////////////////////////
 void Sprite::setTextureRect(int type, sf::IntRect textureRect)
 {
     mRects[type] = textureRect;

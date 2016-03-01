@@ -25,14 +25,14 @@ bool Button::contains(sf::Vector2f const& pos) const
 }
 
 ////////////////////////////////////////////////////////////
-void Button::handleEvent(sf::Event const& event, ah::Window& window)
+void Button::handleEvent(sf::Event const& event)
 {
     if (isEnabled() && isVisible())
     {
 		#ifdef WINDOWS
-        if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left && Button::contains(window.getPointerPosition()))
+        if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left && Button::contains(sf::Vector2f(event.mouseButton.x,event.mouseButton.y)))
 		#else
-		if (event.type == sf::Event::TouchBegan && Button::contains(window.getPointerPosition(event.touch.finger)))
+		if (event.type == sf::Event::TouchBegan && Button::contains(sf::Vector2f(event.touch.x,event.touch.y)))
 		#endif
 		{
 			mPressed = true;
@@ -51,7 +51,7 @@ void Button::handleEvent(sf::Event const& event, ah::Window& window)
 			{
 				mPressed = false;
 				#ifdef WINDOWS
-				if (Button::contains(window.getPointerPosition()))
+				if (Button::contains(sf::Vector2f(event.mouseButton.x,event.mouseButton.y)))
 				#else
 				if (Button::contains(sf::Vector2f(event.touch.x,event.touch.y)))
 				#endif
@@ -89,6 +89,25 @@ void Button::render(sf::RenderTarget& target, sf::RenderStates states)
 		Sprite::render(target,states);
     }
 }
+
+////////////////////////////////////////////////////////////
+sf::Vector2f Button::getSize() const
+{
+    return Sprite::getSize();
+}
+
+////////////////////////////////////////////////////////////
+void Button::setSize(sf::Vector2f newSize)
+{
+    Sprite::setSize(newSize);
+}
+
+////////////////////////////////////////////////////////////
+void Button::setSize(float x, float y)
+{
+    Sprite::setSize(x,y);
+}
+
 
 } // namespace SGUI
 

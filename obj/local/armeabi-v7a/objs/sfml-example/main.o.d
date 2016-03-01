@@ -86,29 +86,17 @@ obj/local/armeabi-v7a/objs/sfml-example/main.o: jni/main.cpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__tree \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer \
- jni/Application/../Utils/String.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
+ jni/Application/State.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Config.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.inl \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Config.hpp \
- jni/Application/../Utils/Vector.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
- D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl \
- jni/Application/../Utils/Assume.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
- jni/Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- jni/Application/../Utils/Time.hpp jni/Application/State.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Transform.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/BlendMode.hpp \
@@ -129,6 +117,8 @@ obj/local/armeabi-v7a/objs/sfml-example/main.o: jni/main.cpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Keyboard.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Mouse.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Sensor.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl \
  jni/Application/Window.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderWindow.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Image.hpp \
@@ -182,30 +172,35 @@ obj/local/armeabi-v7a/objs/sfml-example/main.o: jni/main.cpp \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileFactory.inl \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileReader.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp \
- jni/Application/ResourceManager.hpp jni/Application/../Utils/Map.hpp \
- jni/Application/LangManager.hpp \
+ jni/Application/ResourceManager.hpp jni/Application/LangManager.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h \
- jni/Application/../Utils/Log.hpp jni/Core/World.hpp \
- jni/Core/CameraManager.hpp jni/Core/CameraComponent.hpp \
- jni/Core/Component.hpp jni/Core/../Utils/Array.hpp \
- jni/Core/../Utils/Math.hpp jni/Core/../Utils/Pugixml.hpp \
- jni/Core/../Utils/String.hpp jni/Core/Tickable.hpp \
- jni/Core/Transformable.hpp jni/Core/../Utils/Vector.hpp \
- jni/Core/Actor.hpp jni/Core/RootComponent.hpp jni/Core/Action.hpp \
+ jni/Core/World.hpp jni/Core/CameraManager.hpp \
+ jni/Core/CameraComponent.hpp jni/Core/Component.hpp \
+ jni/Core/../Utils/Array.hpp jni/Core/../Utils/Math.hpp \
+ jni/Core/../Utils/Pugixml.hpp jni/Core/../Utils/String.hpp \
+ jni/Core/../Utils/Vector.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
+ D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
+ jni/Core/Tickable.hpp jni/Core/Transformable.hpp \
+ jni/Core/../Utils/Vector.hpp jni/Core/Actor.hpp \
+ jni/Core/RootComponent.hpp jni/Core/Action.hpp \
  jni/Core/SceneComponent.hpp jni/Core/../Utils/Map.hpp \
  jni/Core/../Utils/Timer.hpp jni/Core/../Application/Application.hpp \
  jni/Core/SpriteComponent.hpp jni/Core/InputComponent.hpp \
  jni/Core/ActionTarget.hpp jni/Core/ActionMap.hpp \
  jni/Core/CameraComponent.hpp jni/Core/PointComponent.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/CircleShape.hpp \
- jni/Button.hpp jni/LayerComponent.hpp jni/Core/SceneComponent.hpp \
- jni/SimpleGui/Joystick.hpp jni/SimpleGui/../Application/Application.hpp \
+ jni/Core/LayerComponent.hpp jni/SimpleGui/Joystick.hpp \
  jni/SimpleGui/Widget.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Window/Context.hpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/array \
- jni/SimpleGui/Button.hpp jni/SimpleGui/Sprite.hpp \
- jni/SimpleGui/Callback.hpp
+ jni/SimpleGui/../Utils/Log.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
+ jni/SimpleGui/../Utils/Time.hpp jni/SimpleGui/Button.hpp \
+ jni/SimpleGui/Sprite.hpp jni/SimpleGui/Callback.hpp
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
 
@@ -383,7 +378,19 @@ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/vector:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/__split_buffer:
 
-jni/Application/../Utils/String.hpp:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
+
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
+
+jni/Application/State.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Config.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp:
 
@@ -392,44 +399,6 @@ D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.hpp:
 D:/Android/NDK/sources/sfml/include/SFML/System/Vector2.inl:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Config.hpp:
-
-jni/Application/../Utils/Vector.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
-
-D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl:
-
-jni/Application/../Utils/Assume.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
-
-jni/Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-jni/Application/../Utils/Time.hpp:
-
-jni/Application/State.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp:
 
@@ -470,6 +439,10 @@ D:/Android/NDK/sources/sfml/include/SFML/Window/Keyboard.hpp:
 D:/Android/NDK/sources/sfml/include/SFML/Window/Mouse.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Window/Sensor.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/System/Vector3.inl:
 
 jni/Application/Window.hpp:
 
@@ -581,13 +554,11 @@ D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp:
 
 jni/Application/ResourceManager.hpp:
 
-jni/Application/../Utils/Map.hpp:
-
 jni/Application/LangManager.hpp:
 
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
 
-jni/Application/../Utils/Log.hpp:
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
 
 jni/Core/World.hpp:
 
@@ -604,6 +575,14 @@ jni/Core/../Utils/Math.hpp:
 jni/Core/../Utils/Pugixml.hpp:
 
 jni/Core/../Utils/String.hpp:
+
+jni/Core/../Utils/Vector.hpp:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
+
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
 
 jni/Core/Tickable.hpp:
 
@@ -639,15 +618,9 @@ jni/Core/PointComponent.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/CircleShape.hpp:
 
-jni/Button.hpp:
-
-jni/LayerComponent.hpp:
-
-jni/Core/SceneComponent.hpp:
+jni/Core/LayerComponent.hpp:
 
 jni/SimpleGui/Joystick.hpp:
-
-jni/SimpleGui/../Application/Application.hpp:
 
 jni/SimpleGui/Widget.hpp:
 
@@ -656,6 +629,12 @@ D:/Android/NDK/sources/sfml/include/SFML/Window.hpp:
 D:/Android/NDK/sources/sfml/include/SFML/Window/Context.hpp:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/array:
+
+jni/SimpleGui/../Utils/Log.hpp:
+
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
+
+jni/SimpleGui/../Utils/Time.hpp:
 
 jni/SimpleGui/Button.hpp:
 

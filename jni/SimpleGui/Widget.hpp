@@ -8,8 +8,6 @@
 #include <memory>
 #include <array>
 
-#include "../Application/Application.hpp"
-
 namespace SGUI
 {
 
@@ -33,7 +31,7 @@ class Widget : public sf::Transformable
         virtual void setSize(sf::Vector2f newSize);
         virtual void setSize(float x, float y);
 
-        virtual void handleEvent(sf::Event const& event, ah::Window& window);
+        virtual void handleEvent(sf::Event const& event);
         virtual void update(sf::Time dt);
 		virtual void render(sf::RenderTarget& target, sf::RenderStates states);
 

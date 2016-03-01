@@ -129,26 +129,16 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/AudioManager.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileReader.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Audio/SoundFileWriter.hpp \
  jni/Application/Application.hpp jni/Application/StateManager.hpp \
- jni/Application/../Utils/String.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp \
- D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
- jni/Application/../Utils/Vector.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
- D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h \
- jni/Application/../Utils/Assume.hpp \
  D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
- jni/Application/../Utils/Log.hpp \
- D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
- jni/Application/../Utils/Time.hpp jni/Application/State.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
+ jni/Application/State.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp \
+ D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Transform.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/BlendMode.hpp \
@@ -182,10 +172,10 @@ obj/local/armeabi-v7a/objs/sfml-example/Application/AudioManager.o: \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/RectangleShape.hpp \
  D:/Android/NDK/sources/sfml/include/SFML/Graphics/Shape.hpp \
  jni/Application/../Utils/Pugixml.hpp jni/Application/../Utils/Time.hpp \
- jni/Application/ResourceManager.hpp jni/Application/../Utils/Map.hpp \
- jni/Application/LangManager.hpp \
+ jni/Application/ResourceManager.hpp jni/Application/LangManager.hpp \
+ D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream \
  D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h \
- jni/Application/../Utils/Log.hpp jni/Application/../Utils/Math.hpp
+ jni/Application/../Utils/Math.hpp
 
 jni/Application/AudioManager.hpp:
 
@@ -449,47 +439,25 @@ jni/Application/Application.hpp:
 
 jni/Application/StateManager.hpp:
 
-jni/Application/../Utils/String.hpp:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
+
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
 
 D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
 
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp:
-
-D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp:
-
-jni/Application/../Utils/Vector.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/math.h:
-
-jni/Application/../Utils/Assume.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
-
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/assert.h:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
-
-jni/Application/../Utils/Log.hpp:
-
-D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
-
-jni/Application/../Utils/Time.hpp:
-
 jni/Application/State.hpp:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/RenderTarget.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Export.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Color.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.hpp:
+
+D:/Android/NDK/sources/sfml/include/SFML/Graphics/Rect.inl:
 
 D:/Android/NDK/sources/sfml/include/SFML/Graphics/View.hpp:
 
@@ -561,12 +529,10 @@ jni/Application/../Utils/Time.hpp:
 
 jni/Application/ResourceManager.hpp:
 
-jni/Application/../Utils/Map.hpp:
-
 jni/Application/LangManager.hpp:
 
-D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
+D:/Android/NDK/sources/cxx-stl/llvm-libc++/libcxx/include/fstream:
 
-jni/Application/../Utils/Log.hpp:
+D:/Android/NDK/platforms/android-9/arch-arm/usr/include/dirent.h:
 
 jni/Application/../Utils/Math.hpp:

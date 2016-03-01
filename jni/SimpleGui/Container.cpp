@@ -9,14 +9,14 @@ Container::Container()
 }
 
 ////////////////////////////////////////////////////////////
-void Container::handleEvent(sf::Event const& event, ah::Window& window)
+void Container::handleEvent(sf::Event const& event)
 {
     if (isEnabled() && isVisible())
 	{
 		std::size_t s = mWidgets.size();
 		for (std::size_t i = 0; i < s; i++)
 		{
-			mWidgets[i]->handleEvent(event,window);
+			mWidgets[i]->handleEvent(event);
 		}
 	}
 }
