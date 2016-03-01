@@ -6,7 +6,6 @@
 #include "AudioManager.hpp"
 #include "ResourceManager.hpp"
 #include "LangManager.hpp"
-#include "../Utils/Log.hpp"
 
 namespace ah
 {

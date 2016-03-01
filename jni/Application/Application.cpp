@@ -70,7 +70,7 @@ void Application::run()
             fpsClock.restart();
         }
     }
-    //instance().mWindow.close();
+    instance().mWindow.close();
 }
 
 void Application::close()

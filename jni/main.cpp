@@ -8,7 +8,6 @@
 #include "Core/CameraComponent.hpp"
 #include "Core/PointComponent.hpp"
 
-#include "Button.hpp"
 #include "LayerComponent.hpp"
 
 #include "SimpleGui/Joystick.hpp"

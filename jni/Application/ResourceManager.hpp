@@ -6,8 +6,8 @@
 #include <SFML/Graphics/Font.hpp>
 #include <SFML/Audio/SoundBuffer.hpp>
 
-#include "../Utils/Assume.hpp"
-#include "../Utils/Map.hpp"
+#include <iostream>
+#include <cassert>
 
 namespace ah
 {
@@ -23,15 +23,10 @@ class ResourceManager
         void loadFont(std::string const& id, std::string const& filename);
         void loadSoundBuffer(std::string const& id, std::string const& filename);
 
-        bool isLoadedTexture(std::string const& id);
-        bool isLoadedImage(std::string const& id);
-        bool isLoadedFont(std::string const& id);
-        bool isLoadedSoundBuffer(std::string const& id);
-
-        sf::Texture& getTexture(std::string const& id, std::string const& filename = "");
-        sf::Image& getImage(std::string const& id, std::string const& filename = "");
-        sf::Font& getFont(std::string const& id, std::string const& filename = "");
-        sf::SoundBuffer& getSoundBuffer(std::string const& id, std::string const& filename = "");
+        sf::Texture& getTexture(std::string const& id);
+        sf::Image& getImage(std::string const& id);
+        sf::Font& getFont(std::string const& id);
+        sf::SoundBuffer& getSoundBuffer(std::string const& id);
 
         void releaseTexture(std::string const& id);
         void releaseImage(std::string const& id);
@@ -39,10 +34,10 @@ class ResourceManager
         void releaseSoundBuffer(std::string const& id);
 
     protected:
-        NMap<std::string,sf::Texture> mTextures;
-        NMap<std::string,sf::Image> mImages;
-        NMap<std::string,sf::Font> mFonts;
-        NMap<std::string,sf::SoundBuffer> mSoundBuffers;
+        std::map<std::string,sf::Texture> mTextures;
+        std::map<std::string,sf::Image> mImages;
+        std::map<std::string,sf::Font> mFonts;
+        std::map<std::string,sf::SoundBuffer> mSoundBuffers;
 };
 
 } // namespace ah

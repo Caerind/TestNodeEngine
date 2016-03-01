@@ -77,18 +77,18 @@ class Window : public sf::RenderWindow
         //
         // TOUCH
         //
-        sf::Vector2i getTouchPosition2i(int touchIndex = 0) const;
-        sf::Vector2f getTouchPosition(int touchIndex = 0) const;
-        sf::Vector2f getTouchPositionMap(int touchIndex = 0) const;
-        sf::Vector2f getTouchPositionView(sf::View const& view, int touchIndex = 0);
+        sf::Vector2i getTouchPosition2i(unsigned int touchIndex = 0) const;
+        sf::Vector2f getTouchPosition(unsigned int touchIndex = 0) const;
+        sf::Vector2f getTouchPositionMap(unsigned int touchIndex = 0) const;
+        sf::Vector2f getTouchPositionView(sf::View const& view, unsigned int touchIndex = 0);
 
         //
         // Pointer
         //
-        sf::Vector2i getPointerPosition2i(int touchIndex = 0) const;
-        sf::Vector2f getPointerPosition(int touchIndex = 0) const;
-        sf::Vector2f getPointerPositionMap(int touchIndex = 0) const;
-        sf::Vector2f getPointerPositionView(sf::View const& view, int touchIndex = 0);
+        sf::Vector2i getPointerPosition2i(unsigned int touchIndex = 0) const;
+        sf::Vector2f getPointerPosition(unsigned int touchIndex = 0) const;
+        sf::Vector2f getPointerPositionMap(unsigned int touchIndex = 0) const;
+        sf::Vector2f getPointerPositionView(sf::View const& view, unsigned int touchIndex = 0);
 
         //
         // CURSOR
@@ -136,9 +136,8 @@ class Window : public sf::RenderWindow
         //
         // LOADING/SAVING SETTINGS
         //
-        bool load();
-        void detect();
-        void save();
+        bool load(std::string const& filename);
+        void save(std::string const& filename);
 
         //
         // BACKGROUND

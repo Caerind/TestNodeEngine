@@ -973,3 +973,475 @@
 1456787204 source:d:\android\projects\testaharos\jni\simplegui\widget.cpp
 	"Widget.hpp"
 
+1456687940 source:d:\github\testnodeengine\jni\core\action.cpp
+	"Action.hpp"
+
+1456687939 d:\github\testnodeengine\jni\core\action.hpp
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1454941476 source:d:\github\testnodeengine\jni\core\actionmap.cpp
+	"ActionMap.hpp"
+
+1454841995 d:\github\testnodeengine\jni\core\actionmap.hpp
+	"../Utils/Map.hpp"
+	"Action.hpp"
+
+1454330903 d:\github\testnodeengine\jni\utils\map.hpp
+	<algorithm>
+	<functional>
+	<map>
+
+1455982451 source:d:\github\testnodeengine\jni\core\actiontarget.cpp
+	"ActionTarget.hpp"
+	"World.hpp"
+
+1455283600 d:\github\testnodeengine\jni\core\actiontarget.hpp
+	"ActionMap.hpp"
+	"Tickable.hpp"
+
+1454940575 d:\github\testnodeengine\jni\core\tickable.hpp
+	<SFML/System/Time.hpp>
+
+1456769302 d:\github\testnodeengine\jni\core\world.hpp
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/Event.hpp>
+	"CameraManager.hpp"
+	"Tickable.hpp"
+	"Actor.hpp"
+	"Action.hpp"
+	"SceneComponent.hpp"
+	"../Utils/Array.hpp"
+	"../Utils/Map.hpp"
+	"../Utils/Pugixml.hpp"
+	"../Utils/Timer.hpp"
+	"../Application/Application.hpp"
+
+1456769609 d:\github\testnodeengine\jni\core\cameramanager.hpp
+	"CameraComponent.hpp"
+	"../Utils/Array.hpp"
+
+1456769625 d:\github\testnodeengine\jni\core\cameracomponent.hpp
+	"Component.hpp"
+	<SFML/Graphics/View.hpp>
+
+1455284091 d:\github\testnodeengine\jni\core\component.hpp
+	"../Utils/Array.hpp"
+	"../Utils/Pugixml.hpp"
+	"../Utils/String.hpp"
+	"Tickable.hpp"
+	"Transformable.hpp"
+
+1455886456 d:\github\testnodeengine\jni\utils\array.hpp
+	<algorithm>
+	<functional>
+	<vector>
+	"Math.hpp"
+
+1455289992 d:\github\testnodeengine\jni\utils\math.hpp
+
+1454259650 d:\github\testnodeengine\jni\utils\pugixml.hpp
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1456783317 d:\github\testnodeengine\jni\utils\string.hpp
+	<iostream>
+	<algorithm>
+	<string>
+	<typeinfo>
+	<vector>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Color.hpp>
+	"Vector.hpp"
+	<cxxabi.h>
+	<cstdlib>
+
+1455240085 d:\github\testnodeengine\jni\utils\vector.hpp
+	<cmath>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1455015822 d:\github\testnodeengine\jni\core\transformable.hpp
+	"../Utils/Vector.hpp"
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1455292963 d:\github\testnodeengine\jni\core\actor.hpp
+	<memory>
+	"RootComponent.hpp"
+
+1455234902 d:\github\testnodeengine\jni\core\rootcomponent.hpp
+	"Component.hpp"
+
+1455031482 d:\github\testnodeengine\jni\core\scenecomponent.hpp
+	"Component.hpp"
+	<SFML/Graphics/RenderTarget.hpp>
+
+1455367005 d:\github\testnodeengine\jni\utils\timer.hpp
+	<functional>
+	<memory>
+	<SFML/System/Time.hpp>
+
+1456871739 d:\github\testnodeengine\jni\application\application.hpp
+	"StateManager.hpp"
+	"Window.hpp"
+	"AudioManager.hpp"
+	"ResourceManager.hpp"
+	"LangManager.hpp"
+
+1456871906 d:\github\testnodeengine\jni\application\statemanager.hpp
+	<functional>
+	<map>
+	<vector>
+	<string>
+	<cassert>
+	<iostream>
+	"State.hpp"
+
+1456870375 d:\github\testnodeengine\jni\application\state.hpp
+	<memory>
+	<string>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window/Event.hpp>
+
+1456870741 d:\github\testnodeengine\jni\application\window.hpp
+	<map>
+	<iostream>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	"../Utils/Pugixml.hpp"
+	"../Utils/Time.hpp"
+
+1455749340 d:\github\testnodeengine\jni\utils\time.hpp
+	<ctime>
+	<string>
+
+1456871390 d:\github\testnodeengine\jni\application\audiomanager.hpp
+	<map>
+	<memory>
+	<SFML/Audio.hpp>
+
+1456870104 d:\github\testnodeengine\jni\application\resourcemanager.hpp
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<iostream>
+	<cassert>
+
+1456871148 d:\github\testnodeengine\jni\application\langmanager.hpp
+	<string>
+	<map>
+	<vector>
+	<fstream>
+	<dirent.h>
+	<sys/types.h>
+
+1455293003 source:d:\github\testnodeengine\jni\core\actor.cpp
+	"Actor.hpp"
+
+1456770773 source:d:\github\testnodeengine\jni\core\cameracomponent.cpp
+	"CameraComponent.hpp"
+	"World.hpp"
+
+1456770786 source:d:\github\testnodeengine\jni\core\cameramanager.cpp
+	"CameraManager.hpp"
+	"World.hpp"
+
+1455284193 source:d:\github\testnodeengine\jni\core\component.cpp
+	"Component.hpp"
+
+1455981750 source:d:\github\testnodeengine\jni\core\inputcomponent.cpp
+	"InputComponent.hpp"
+
+1455977672 d:\github\testnodeengine\jni\core\inputcomponent.hpp
+	"Component.hpp"
+	"ActionTarget.hpp"
+
+1455221819 source:d:\github\testnodeengine\jni\core\pointcomponent.cpp
+	"PointComponent.hpp"
+
+1455221709 d:\github\testnodeengine\jni\core\pointcomponent.hpp
+	<SFML/Graphics/CircleShape.hpp>
+	"SceneComponent.hpp"
+
+1455240183 source:d:\github\testnodeengine\jni\core\rootcomponent.cpp
+	"RootComponent.hpp"
+	"Actor.hpp"
+
+1455031657 source:d:\github\testnodeengine\jni\core\scenecomponent.cpp
+	"SceneComponent.hpp"
+	"World.hpp"
+
+1456690624 source:d:\github\testnodeengine\jni\core\spritecomponent.cpp
+	"SpriteComponent.hpp"
+	"World.hpp"
+
+1455292562 d:\github\testnodeengine\jni\core\spritecomponent.hpp
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"SceneComponent.hpp"
+
+1454941569 source:d:\github\testnodeengine\jni\core\tickable.cpp
+	"Tickable.hpp"
+	"World.hpp"
+
+1454958686 source:d:\github\testnodeengine\jni\core\transformable.cpp
+	"Transformable.hpp"
+
+1456783323 source:d:\github\testnodeengine\jni\core\world.cpp
+	"World.hpp"
+
+1455975372 source:d:\github\testnodeengine\jni\isometric.cpp
+	"Isometric.hpp"
+
+1456736103 d:\github\testnodeengine\jni\isometric.hpp
+	<cmath>
+	<vector>
+	<SFML/System/Vector2.hpp>
+	"Utils/Vector.hpp"
+
+1456785232 source:d:\github\testnodeengine\jni\layercomponent.cpp
+	"LayerComponent.hpp"
+	"Core/World.hpp"
+	"Utils/Math.hpp"
+	"Utils/Compression.hpp"
+
+1456784983 d:\github\testnodeengine\jni\layercomponent.hpp
+	<vector>
+	<SFML/Graphics/Sprite.hpp>
+	"Core/SceneComponent.hpp"
+
+1454315648 d:\github\testnodeengine\jni\utils\compression.hpp
+	<cstring>
+	<string>
+	<sstream>
+	<vector>
+	<fstream>
+	<zlib.h>
+	"Pugixml.hpp"
+
+1456792262 source:d:\github\testnodeengine\jni\simplegui\button.cpp
+	"Button.hpp"
+
+1456792210 d:\github\testnodeengine\jni\simplegui\button.hpp
+	"Widget.hpp"
+	"Sprite.hpp"
+	"Callback.hpp"
+
+1456787169 d:\github\testnodeengine\jni\simplegui\widget.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window.hpp>
+	<memory>
+	<array>
+	"../Application/Application.hpp"
+
+1456790448 d:\github\testnodeengine\jni\simplegui\sprite.hpp
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<map>
+	"../Application/Application.hpp"
+
+1456787396 d:\github\testnodeengine\jni\simplegui\callback.hpp
+	<functional>
+	<map>
+
+1456787388 source:d:\github\testnodeengine\jni\simplegui\callback.cpp
+	"Callback.hpp"
+
+1456791313 source:d:\github\testnodeengine\jni\simplegui\checkbox.cpp
+	"CheckBox.hpp"
+
+1456791213 d:\github\testnodeengine\jni\simplegui\checkbox.hpp
+	"Widget.hpp"
+	"Sprite.hpp"
+	"Callback.hpp"
+
+1456790891 source:d:\github\testnodeengine\jni\simplegui\container.cpp
+	"Container.hpp"
+
+1456790891 d:\github\testnodeengine\jni\simplegui\container.hpp
+	<vector>
+	"Widget.hpp"
+
+1456791483 source:d:\github\testnodeengine\jni\simplegui\joystick.cpp
+	"Joystick.hpp"
+
+1456791353 d:\github\testnodeengine\jni\simplegui\joystick.hpp
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	"../Application/Application.hpp"
+	"Widget.hpp"
+
+1456789554 source:d:\github\testnodeengine\jni\simplegui\lineedit.cpp
+	"LineEdit.hpp"
+
+1456790917 d:\github\testnodeengine\jni\simplegui\lineedit.hpp
+
+1456790924 source:d:\github\testnodeengine\jni\simplegui\slider.cpp
+	"Slider.hpp"
+
+1456790905 d:\github\testnodeengine\jni\simplegui\slider.hpp
+
+1456790935 source:d:\github\testnodeengine\jni\simplegui\sprite.cpp
+	"Sprite.hpp"
+
+1456787204 source:d:\github\testnodeengine\jni\simplegui\widget.cpp
+	"Widget.hpp"
+
+1456698607 source:d:\github\testnodeengine\jni\utils\atlog.cpp
+	"AtLog.hpp"
+
+1456698608 d:\github\testnodeengine\jni\utils\atlog.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<functional>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Clock.hpp>
+
+1454315666 source:d:\github\testnodeengine\jni\utils\compression.cpp
+	"Compression.hpp"
+	<iostream>
+
+1456735622 source:d:\github\testnodeengine\jni\utils\gzstream.cpp
+	"Gzstream.hpp"
+	<iostream>
+	<string.h>
+
+1454316988 d:\github\testnodeengine\jni\utils\gzstream.hpp
+	<iostream>
+	<fstream>
+	<zlib.h>
+
+1454316301 source:d:\github\testnodeengine\jni\utils\log.cpp
+	"Log.hpp"
+
+1455241472 d:\github\testnodeengine\jni\utils\log.hpp
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<time.h>
+	"Time.hpp"
+
+1455923227 source:d:\github\testnodeengine\jni\utils\math.cpp
+	"Math.hpp"
+	"Assume.hpp"
+	<chrono>
+	<random>
+
+1454328731 d:\github\testnodeengine\jni\utils\assume.hpp
+	"assume.hpp"
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<deque>
+	<string>
+	<sstream>
+	"Log.hpp"
+	<cassert>
+
+1446660594 source:d:\github\testnodeengine\jni\utils\packet.cpp
+	"Packet.hpp"
+
+1449097869 d:\github\testnodeengine\jni\utils\packet.hpp
+	<SFML/Network/Packet.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1448873130 source:d:\github\testnodeengine\jni\utils\paralleltask.cpp
+	"ParallelTask.hpp"
+
+1448872985 d:\github\testnodeengine\jni\utils\paralleltask.hpp
+	<SFML/System/Thread.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Clock.hpp>
+
+1454619240 source:d:\github\testnodeengine\jni\utils\physicconverter.cpp
+	"PhysicConverter.hpp"
+
+1454619207 d:\github\testnodeengine\jni\utils\physicconverter.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1454259650 source:d:\github\testnodeengine\jni\utils\pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1455901186 source:d:\github\testnodeengine\jni\utils\string.cpp
+	"String.hpp"
+
+1455750023 source:d:\github\testnodeengine\jni\utils\time.cpp
+	"Time.hpp"
+
+1455326555 source:d:\github\testnodeengine\jni\utils\timer.cpp
+	"Timer.hpp"
+
+1455239699 source:d:\github\testnodeengine\jni\utils\vector.cpp
+	"Vector.hpp"
+
+1456871795 source:d:\github\testnodeengine\jni\application\application.cpp
+	"Application.hpp"
+
+1456871887 source:d:\github\testnodeengine\jni\application\audiomanager.cpp
+	"AudioManager.hpp"
+	"Application.hpp"
+	"../Utils/Math.hpp"
+
+1456871265 source:d:\github\testnodeengine\jni\application\langmanager.cpp
+	"LangManager.hpp"
+
+1456870560 source:d:\github\testnodeengine\jni\application\resourcemanager.cpp
+	"ResourceManager.hpp"
+
+1456870391 source:d:\github\testnodeengine\jni\application\state.cpp
+	"State.hpp"
+	"StateManager.hpp"
+
+1456870572 source:d:\github\testnodeengine\jni\application\statemanager.cpp
+	"StateManager.hpp"
+	"State.hpp"
+
+1456870846 source:d:\github\testnodeengine\jni\application\window.cpp
+	"Window.hpp"
+

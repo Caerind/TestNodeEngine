@@ -4,9 +4,9 @@
 #include <functional>
 #include <map>
 #include <vector>
-
-#include "../Utils/String.hpp"
-#include "../Utils/Assume.hpp"
+#include <string>
+#include <cassert>
+#include <iostream>
 
 #include "State.hpp"
 
@@ -25,16 +25,12 @@ class StateManager
 		void update(sf::Time dt);
 		void render(sf::RenderTarget& target, sf::RenderStates states);
 
-        //template <typename T>
-		//void pushState();
 		void pushState(std::string const& id);
 		void popState();
 		void clearStates();
 
 		bool empty() const;
 		std::size_t size() const;
-		std::string getActiveStateType() const;
-		std::string getLastActiveStateType() const;
 
 	protected:
 		enum Action
@@ -71,14 +67,6 @@ void StateManager::registerState(std::string const& id)
 		return State::Ptr(new T(*this));
 	};
 }
-
-/*
-template <typename T>
-void StateManager::pushState()
-{
-	//mPendingList.push_back(PendingChange(Push, NString::type<T>()));
-}
-*/
 
 } // namespace ah
 

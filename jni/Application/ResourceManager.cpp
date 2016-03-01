@@ -47,84 +47,64 @@ void ResourceManager::loadSoundBuffer(std::string const& id, std::string const& 
     mSoundBuffers[id].loadFromFile(f);
 }
 
-bool ResourceManager::isLoadedTexture(std::string const& id)
+sf::Texture& ResourceManager::getTexture(std::string const& id)
 {
-    return mTextures.contains(id);
-}
-
-bool ResourceManager::isLoadedImage(std::string const& id)
-{
-    return mImages.contains(id);
-}
-
-bool ResourceManager::isLoadedFont(std::string const& id)
-{
-    return mFonts.contains(id);
-}
-
-bool ResourceManager::isLoadedSoundBuffer(std::string const& id)
-{
-    return mSoundBuffers.contains(id);
-}
-
-sf::Texture& ResourceManager::getTexture(std::string const& id, std::string const& filename)
-{
-    if (!isLoadedTexture(id) && filename != "")
+    if (mTextures.find(id) == mTextures.end())
     {
-        loadTexture(id,filename);
+        std::cerr << "Resource : " << id << " not loaded properly" << std::endl;
+        assert(false);
     }
-    Assume((isLoadedTexture(id) == true));
     return mTextures[id];
 }
 
-sf::Image& ResourceManager::getImage(std::string const& id, std::string const& filename)
+sf::Image& ResourceManager::getImage(std::string const& id)
 {
-    if (!isLoadedImage(id) && filename != "")
+    if (mImages.find(id) == mImages.end())
     {
-        loadImage(id,filename);
+        std::cerr << "Resource : " << id << " not loaded properly" << std::endl;
+        assert(false);
     }
-    Assume((isLoadedImage(id) == true));
     return mImages[id];
 }
 
-sf::Font& ResourceManager::getFont(std::string const& id, std::string const& filename)
+sf::Font& ResourceManager::getFont(std::string const& id)
 {
-    if (!isLoadedFont(id) && filename != "")
+    if (mFonts.find(id) == mFonts.end())
     {
-        loadFont(id,filename);
+        std::cerr << "Resource : " << id << " : not loaded properly" << std::endl;
+        assert(false);
     }
-    Assume((isLoadedFont(id) == true));
     return mFonts[id];
 }
 
-sf::SoundBuffer& ResourceManager::getSoundBuffer(std::string const& id, std::string const& filename)
+sf::SoundBuffer& ResourceManager::getSoundBuffer(std::string const& id)
 {
-    if (!isLoadedSoundBuffer(id) && filename != "")
+    if (mSoundBuffers.find(id) == mSoundBuffers.end())
     {
-        loadSoundBuffer(id,filename);
+        std::cerr << "Resource : " << id << " : not loaded properly" << std::endl;
+        assert(false);
     }
-    Assume((isLoadedSoundBuffer(id) == true));
     return mSoundBuffers[id];
 }
 
 void ResourceManager::releaseTexture(std::string const& id)
 {
-    mTextures.remove(id);
+    mTextures.erase(mTextures.find(id));
 }
 
 void ResourceManager::releaseImage(std::string const& id)
 {
-    mImages.remove(id);
+    mImages.erase(mImages.find(id));
 }
 
 void ResourceManager::releaseFont(std::string const& id)
 {
-    mFonts.remove(id);
+    mFonts.erase(mFonts.find(id));
 }
 
 void ResourceManager::releaseSoundBuffer(std::string const& id)
 {
-    mSoundBuffers.remove(id);
+    mSoundBuffers.erase(mSoundBuffers.find(id));
 }
 
 } // namespace ah

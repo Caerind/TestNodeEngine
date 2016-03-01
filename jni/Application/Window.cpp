@@ -14,19 +14,19 @@ Window::Window()
     mDebugInfoVisible = false;
     mDebugInfoColor = sf::Color::White;
     mDebugInfoCharsize = 15;
-    mStyle = sf::Style::Close;
     mBackground.setFillColor(sf::Color::Black);
 
-    if (!load())
-    {
-        detect();
-        save();
-    }
+    #ifdef WINDOWS
+    mVideoMode = sf::VideoMode(800,600);
+    mStyle = sf::Style::Close;
+    #else
+    mVideoMode = sf::VideoMode::getDesktopMode();
+    mStyle = sf::Style::Fullscreen;
+    #endif // WINDOWS
 }
 
 Window::~Window()
 {
-    save();
 }
 
 void Window::setDefaultView()
@@ -71,6 +71,7 @@ void Window::create()
     sf::RenderWindow::create(mVideoMode,mTitle,mStyle);
     setMouseCursor(mCursor);
     updateBackground();
+    mVisible = true;
 }
 
 void Window::create(sf::VideoMode videoMode, std::string const& title, sf::Uint32 style)
@@ -234,27 +235,27 @@ sf::Vector2f Window::getMousePositionView(sf::View const& view)
     return mapPixelToCoords(sf::Mouse::getPosition(*this),view);
 }
 
-sf::Vector2i Window::getTouchPosition2i(int touchIndex) const
+sf::Vector2i Window::getTouchPosition2i(unsigned int touchIndex) const
 {
     return sf::Touch::getPosition(touchIndex,*this);
 }
 
-sf::Vector2f Window::getTouchPosition(int touchIndex) const
+sf::Vector2f Window::getTouchPosition(unsigned int touchIndex) const
 {
     return static_cast<sf::Vector2f>(sf::Touch::getPosition(touchIndex,*this));
 }
 
-sf::Vector2f Window::getTouchPositionMap(int touchIndex) const
+sf::Vector2f Window::getTouchPositionMap(unsigned int touchIndex) const
 {
     return mapPixelToCoords(sf::Touch::getPosition(touchIndex,*this));
 }
 
-sf::Vector2f Window::getTouchPositionView(sf::View const& view, int touchIndex)
+sf::Vector2f Window::getTouchPositionView(sf::View const& view, unsigned int touchIndex)
 {
     return mapPixelToCoords(sf::Touch::getPosition(touchIndex,*this),view);
 }
 
-sf::Vector2i Window::getPointerPosition2i(int touchIndex) const
+sf::Vector2i Window::getPointerPosition2i(unsigned int touchIndex) const
 {
     #ifdef WINDOWS
     return getMousePosition2i();
@@ -263,7 +264,7 @@ sf::Vector2i Window::getPointerPosition2i(int touchIndex) const
     #endif // WINDOWS
 }
 
-sf::Vector2f Window::getPointerPosition(int touchIndex) const
+sf::Vector2f Window::getPointerPosition(unsigned int touchIndex) const
 {
     #ifdef WINDOWS
     return getMousePosition();
@@ -272,7 +273,7 @@ sf::Vector2f Window::getPointerPosition(int touchIndex) const
     #endif // WINDOWS
 }
 
-sf::Vector2f Window::getPointerPositionMap(int touchIndex) const
+sf::Vector2f Window::getPointerPositionMap(unsigned int touchIndex) const
 {
     #ifdef WINDOWS
     return getMousePositionMap();
@@ -281,7 +282,7 @@ sf::Vector2f Window::getPointerPositionMap(int touchIndex) const
     #endif // WINDOWS
 }
 
-sf::Vector2f Window::getPointerPositionView(sf::View const& view, int touchIndex)
+sf::Vector2f Window::getPointerPositionView(sf::View const& view, unsigned int touchIndex)
 {
     #ifdef WINDOWS
     return getMousePositionView(view);
@@ -468,10 +469,10 @@ void Window::removeDebugInfos()
     updateDebugInfo();
 }
 
-bool Window::load()
+bool Window::load(std::string const& filename)
 {
     pugi::xml_document doc;
-    if (!doc.load_file("Assets/Data/settings.xml"))
+    if (!doc.load_file(filename.c_str()))
     {
         return false;
     }
@@ -488,25 +489,10 @@ bool Window::load()
     return false;
 }
 
-void Window::detect()
-{
-    mVerticalSync = true;
-    if (sf::VideoMode::getFullscreenModes().size() > 0)
-    {
-        mStyle = sf::Style::Fullscreen;
-        mVideoMode = sf::VideoMode::getFullscreenModes()[0];
-    }
-    else
-    {
-        mStyle = sf::Style::Close;
-        mVideoMode = sf::VideoMode(800,600);
-    }
-}
-
-void Window::save()
+void Window::save(std::string const& filename)
 {
     pugi::xml_document doc;
-    doc.load_file("Assets/Data/settings.xml");
+    doc.load_file(filename.c_str());
     if (doc.child("Window"))
     {
         doc.remove_child("Window");
@@ -515,7 +501,7 @@ void Window::save()
     window.append_child("VerticalSync").append_attribute("value") = mVerticalSync;
     window.append_child("Fullscreen").append_attribute("value") = isFullscreen();
     window.append_child("Resolution").append_attribute("value") = std::string(std::to_string(mVideoMode.width) + "," + std::to_string(mVideoMode.height)).c_str();
-    doc.save_file("Assets/Data/settings.xml");
+    doc.save_file(filename.c_str());
 }
 
 void Window::setBackgroundColor(sf::Color color)
