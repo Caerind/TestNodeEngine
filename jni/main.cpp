@@ -7,8 +7,7 @@
 #include "Core/InputComponent.hpp"
 #include "Core/CameraComponent.hpp"
 #include "Core/PointComponent.hpp"
-
-#include "LayerComponent.hpp"
+#include "Core/LayerComponent.hpp"
 
 #include "SimpleGui/Joystick.hpp"
 #include "SimpleGui/Button.hpp"
@@ -17,9 +16,11 @@ class MapActor : public NActor
 {
     public:
         MapActor()
-        : mMapComponent("tileset",{20,20},{32,32})
-        , mIsoMapComponent("iso-tileset",{20,20},{64,32},true)
         {
+            mMapComponent.create("tileset",{20,20},{32,32},NLayerComponent::Orthogonal);
+            mIsoMapComponent.create("iso-tileset",{20,20},{64,32},NLayerComponent::Isometric);
+            mHexMapComponent.create("hex-tileset",{20,20},{39,32},NLayerComponent::Hexagonal,23);
+
             sf::Vector2i coords;
             for (coords.x = 0; coords.x < 20; coords.x++)
             {
@@ -27,16 +28,18 @@ class MapActor : public NActor
                 {
                     mMapComponent.setTileId(coords,NMath::random(2,5));
                     mIsoMapComponent.setTileId(coords,NMath::random(2,5));
+                    mHexMapComponent.setTileId(coords,NMath::random(1,5));
                 }
             }
-            mMapComponent.setPosition(0,0);
+
             mIsoMapComponent.setPosition(400,0);
-            setPosition(0,0);
+            mHexMapComponent.setPosition(200,300);
         }
 
     private:
         NLayerComponent mMapComponent;
         NLayerComponent mIsoMapComponent;
+        NLayerComponent mHexMapComponent;
 };
 
 class EActor : public NActor
@@ -163,6 +166,7 @@ int main()
 {
     ah::Application::getResources().loadTexture("icon","icon.png");
     ah::Application::getResources().loadTexture("iso-tileset","iso-tileset.png");
+    ah::Application::getResources().loadTexture("hex-tileset","hex-tileset.png");
     ah::Application::getResources().loadTexture("tileset","tileset.png");
     ah::Application::getResources().loadTexture("joyButton","joyButton.png");
     ah::Application::getResources().loadTexture("joyBackground","joyBackground.png");

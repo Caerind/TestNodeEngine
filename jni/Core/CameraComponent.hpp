@@ -10,7 +10,7 @@ class NCameraComponent : public NComponent
         NCameraComponent();
         ~NCameraComponent();
 
-        sf::View getView();
+        sf::View& getView();
 
     private:
         sf::View mView;

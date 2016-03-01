@@ -19,7 +19,6 @@ FILE_LIST := $(wildcard $(LOCAL_PATH)/SimpleGui/*.cpp)
 LOCAL_SRC_FILES += $(FILE_LIST:$(LOCAL_PATH)/%=%)
 
 LOCAL_SRC_FILES += Isometric.cpp
-LOCAL_SRC_FILES += LayerComponent.cpp
 
 LOCAL_LDLIBS += -lz
 

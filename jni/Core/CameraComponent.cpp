@@ -12,7 +12,7 @@ NCameraComponent::~NCameraComponent()
     NWorld::getCameraManager().removeCamera(this);
 }
 
-sf::View NCameraComponent::getView()
+sf::View& NCameraComponent::getView()
 {
     mView.setCenter(NVector::NToSFML2F(getFinalPosition()));
     return mView;

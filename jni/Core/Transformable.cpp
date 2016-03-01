@@ -17,6 +17,12 @@ void NTransformable::setPosition(NVector const& position)
     mZ = position.z;
 }
 
+void NTransformable::setPosition(sf::Vector2f const& position, float z)
+{
+    mTransformable.setPosition(position);
+    mZ = z;
+}
+
 void NTransformable::setPosition(float x, float y, float z)
 {
     setPosition(NVector(x,y,z));
@@ -30,6 +36,11 @@ NVector NTransformable::getScale() const
 void NTransformable::setScale(NVector const& scale)
 {
     mTransformable.setScale(NVector::NToSFML2F(scale));
+}
+
+void NTransformable::setScale(sf::Vector2f const& scale)
+{
+    mTransformable.setScale(scale);
 }
 
 void NTransformable::setScale(float x, float y)

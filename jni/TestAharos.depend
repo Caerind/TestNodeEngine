@@ -976,7 +976,7 @@
 1456687940 source:d:\github\testnodeengine\jni\core\action.cpp
 	"Action.hpp"
 
-1456687939 d:\github\testnodeengine\jni\core\action.hpp
+1456872151 d:\github\testnodeengine\jni\core\action.hpp
 	<SFML/Window/Event.hpp>
 	<SFML/Window/Keyboard.hpp>
 	<SFML/Window/Mouse.hpp>
@@ -1022,7 +1022,7 @@
 	"CameraComponent.hpp"
 	"../Utils/Array.hpp"
 
-1456769625 d:\github\testnodeengine\jni\core\cameracomponent.hpp
+1456872181 d:\github\testnodeengine\jni\core\cameracomponent.hpp
 	"Component.hpp"
 	<SFML/Graphics/View.hpp>
 
@@ -1065,7 +1065,7 @@
 	<SFML/System/Vector2.hpp>
 	<SFML/System/Vector3.hpp>
 
-1455015822 d:\github\testnodeengine\jni\core\transformable.hpp
+1456872081 d:\github\testnodeengine\jni\core\transformable.hpp
 	"../Utils/Vector.hpp"
 	<SFML/Graphics/Transformable.hpp>
 	<SFML/Graphics/Transform.hpp>
@@ -1153,7 +1153,7 @@
 1455293003 source:d:\github\testnodeengine\jni\core\actor.cpp
 	"Actor.hpp"
 
-1456770773 source:d:\github\testnodeengine\jni\core\cameracomponent.cpp
+1456872181 source:d:\github\testnodeengine\jni\core\cameracomponent.cpp
 	"CameraComponent.hpp"
 	"World.hpp"
 
@@ -1199,7 +1199,7 @@
 	"Tickable.hpp"
 	"World.hpp"
 
-1454958686 source:d:\github\testnodeengine\jni\core\transformable.cpp
+1456872202 source:d:\github\testnodeengine\jni\core\transformable.cpp
 	"Transformable.hpp"
 
 1456783323 source:d:\github\testnodeengine\jni\core\world.cpp
@@ -1444,4 +1444,36 @@
 
 1456870846 source:d:\github\testnodeengine\jni\application\window.cpp
 	"Window.hpp"
+
+1456874477 source:d:\github\testnodeengine\jni\main.cpp
+	<iostream>
+	"Application/Application.hpp"
+	"Core/World.hpp"
+	"Core/SpriteComponent.hpp"
+	"Core/InputComponent.hpp"
+	"Core/CameraComponent.hpp"
+	"Core/PointComponent.hpp"
+	"Core/LayerComponent.hpp"
+	"SimpleGui/Joystick.hpp"
+	"SimpleGui/Button.hpp"
+
+1456873376 source:d:\github\testnodeengine\jni\core\maputility.cpp
+	"MapUtility.hpp"
+
+1456873366 d:\github\testnodeengine\jni\core\maputility.hpp
+	<cmath>
+	<vector>
+	<SFML/System/Vector2.hpp>
+	"../Utils/Vector.hpp"
+
+1456874386 source:d:\github\testnodeengine\jni\core\layercomponent.cpp
+	"LayerComponent.hpp"
+	"World.hpp"
+	"../Utils/Math.hpp"
+	"../Utils/Compression.hpp"
+
+1456873689 d:\github\testnodeengine\jni\core\layercomponent.hpp
+	<vector>
+	<SFML/Graphics/Sprite.hpp>
+	"SceneComponent.hpp"
 
