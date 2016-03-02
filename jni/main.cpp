@@ -18,8 +18,8 @@ class MapActor : public NActor
         MapActor()
         {
             mMapComponent.create("tileset",{20,20},{32,32},NLayerComponent::Orthogonal);
-            mIsoMapComponent.create("iso-tileset",{20,20},{64,32},NLayerComponent::Isometric);
-            mHexMapComponent.create("hex-tileset",{20,20},{39,32},NLayerComponent::Hexagonal,23);
+            mIsoMapComponent.create("iso-tileset",{20,20},{180,150},NLayerComponent::Isometric);
+            mHexMapComponent.create("hex-tileset",{20,20},{57,60},NLayerComponent::Hexagonal,28);
 
             sf::Vector2i coords;
             for (coords.x = 0; coords.x < 20; coords.x++)

@@ -121,13 +121,13 @@
 		<Unit filename="SimpleGui/Widget.hpp" />
 		<Unit filename="Utils/Array.hpp" />
 		<Unit filename="Utils/Assume.hpp" />
-		<Unit filename="Utils/AtLog.cpp" />
-		<Unit filename="Utils/AtLog.hpp" />
 		<Unit filename="Utils/Cocoa.hpp" />
 		<Unit filename="Utils/Compression.cpp" />
 		<Unit filename="Utils/Compression.hpp" />
 		<Unit filename="Utils/Gzstream.cpp" />
 		<Unit filename="Utils/Gzstream.hpp" />
+		<Unit filename="Utils/HttpThread.cpp" />
+		<Unit filename="Utils/HttpThread.hpp" />
 		<Unit filename="Utils/Json.hpp" />
 		<Unit filename="Utils/Log.cpp" />
 		<Unit filename="Utils/Log.hpp" />

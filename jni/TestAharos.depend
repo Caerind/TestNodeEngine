@@ -1279,7 +1279,7 @@
 	<vector>
 	"Widget.hpp"
 
-1456875924 source:d:\github\testnodeengine\jni\simplegui\joystick.cpp
+1456876641 source:d:\github\testnodeengine\jni\simplegui\joystick.cpp
 	"Joystick.hpp"
 
 1456876687 d:\github\testnodeengine\jni\simplegui\joystick.hpp
@@ -1338,12 +1338,13 @@
 1454316301 source:d:\github\testnodeengine\jni\utils\log.cpp
 	"Log.hpp"
 
-1455241472 d:\github\testnodeengine\jni\utils\log.hpp
+1456910186 d:\github\testnodeengine\jni\utils\log.hpp
 	<fstream>
 	<iostream>
 	<sstream>
 	<string>
-	<time.h>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
 	"Time.hpp"
 
 1455923227 source:d:\github\testnodeengine\jni\utils\math.cpp
@@ -1444,7 +1445,7 @@
 1456870846 source:d:\github\testnodeengine\jni\application\window.cpp
 	"Window.hpp"
 
-1456875650 source:d:\github\testnodeengine\jni\main.cpp
+1456907649 source:d:\github\testnodeengine\jni\main.cpp
 	<iostream>
 	"Application/Application.hpp"
 	"Core/World.hpp"
@@ -1465,7 +1466,7 @@
 	<SFML/System/Vector2.hpp>
 	"../Utils/Vector.hpp"
 
-1456874697 source:d:\github\testnodeengine\jni\core\layercomponent.cpp
+1456908117 source:d:\github\testnodeengine\jni\core\layercomponent.cpp
 	"LayerComponent.hpp"
 	"World.hpp"
 	"../Utils/Math.hpp"

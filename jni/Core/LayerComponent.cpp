@@ -78,10 +78,13 @@ void NLayerComponent::render(sf::RenderTarget& target)
 {
     sf::RenderStates states;
     states.transform *= getFinalTransform();
-    std::size_t s = mTiles.size();
-    for (std::size_t i = 0; i < s; i++)
+    sf::Vector2i coords;
+    for (coords.x = 0; coords.x < mMapSize.x; coords.x++)
     {
-        target.draw(mTiles[i],states);
+        for (coords.y = 0; coords.y < mMapSize.y; coords.y++)
+        {
+            target.draw(mTiles[coords.x + coords.y * mMapSize.x],states);
+        }
     }
 }
 
